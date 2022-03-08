@@ -23,7 +23,7 @@ BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := odm product system vendor
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/lineage_gts7xl_defconfig
+TARGET_KERNEL_CONFIG := vendor/gts7xl_eur_open_defconfig 
 
 # Keystore
 TARGET_KEYMASTER_VARIANT := samsung
