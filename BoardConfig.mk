@@ -37,8 +37,8 @@ BOARD_ROOT_EXTRA_FOLDERS := cache carrier dqmdbg efs keydata keyrefuge omr optic
 BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Recovery
+TARGET_RECOVERY_DENSITY := xxhdpi
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
-TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
 
 # Inherit from proprietary vendor
 -include vendor/samsung/gts7xl/BoardConfigVendor.mk

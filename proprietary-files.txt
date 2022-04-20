@@ -29,6 +29,7 @@ vendor/lib/camera/com.samsung.sensor.imx586.so
 vendor/lib/camera/com.samsung.sensor.imx616.so
 vendor/lib/camera/com.samsung.sensor.s5k2l3.so
 vendor/lib/camera/com.samsung.sensor.s5k2la.so
+vendor/lib/camera/com.samsung.sensor.s5k3m5.so
 vendor/lib/camera/com.samsung.sensor.s5k3p8sp.so
 vendor/lib/camera/com.samsung.sensor.s5k4ha.so
 vendor/lib/camera/com.samsung.sensor.s5k5e9yu05.so
@@ -98,12 +99,17 @@ vendor/lib64/camera/com.samsung.sensor.imx586.so
 vendor/lib64/camera/com.samsung.sensor.imx616.so
 vendor/lib64/camera/com.samsung.sensor.s5k2l3.so
 vendor/lib64/camera/com.samsung.sensor.s5k2la.so
+vendor/lib64/camera/com.samsung.sensor.s5k3m5.so
 vendor/lib64/camera/com.samsung.sensor.s5k3p8sp.so
 vendor/lib64/camera/com.samsung.sensor.s5k4ha.so
 vendor/lib64/camera/com.samsung.sensor.s5k5e9yu05.so
 vendor/lib64/camera/com.samsung.sensor.s5kgh1.so
 vendor/lib64/camera/com.samsung.sensor.s5kgw2.so
 vendor/lib64/camera/com.samsung.sensor.s5khm1.so
+vendor/lib/camera/com.samsung.sensormodule.0_lsi_s5k3m5.bin
+vendor/lib/camera/com.samsung.sensormodule.12_lsi_s5k4ha_full.bin
+vendor/lib/camera/com.samsung.sensormodule.1_lsi_s5k4ha.bin
+vendor/lib/camera/com.samsung.sensormodule.2_lsi_s5k5e9yu05.bin
 vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5k3m5.bin
 vendor/lib64/camera/com.samsung.sensormodule.12_lsi_s5k4ha_full.bin
 vendor/lib64/camera/com.samsung.sensormodule.1_lsi_s5k4ha.bin
@@ -184,6 +190,7 @@ vendor/lib/libkeymasterdeviceutils.so
 vendor/lib/libkeymasterutils.so
 vendor/lib/libqtikeymaster4.so
 vendor/lib/libspcom.so
+vendor/lib64/libkeymaster_helper.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
@@ -207,6 +214,8 @@ vendor/etc/sensors/config/kona_irq.json
 vendor/etc/sensors/config/kona_lsm6dso_0_0.json
 vendor/etc/sensors/config/kona_power_0.json
 vendor/etc/sensors/config/kona_qrd_lsm6dso_0.json
+vendor/etc/sensors/config/kona_veml3328_0.json
+vendor/etc/sensors/config/kona_veml3328_1.json
 vendor/etc/sensors/config/lsm6dso_0.json
 vendor/etc/sensors/config/lsm6dso_0_8g.json
 vendor/etc/sensors/config/pah_8011_0_platform.ppg_enable_ex_1.json
