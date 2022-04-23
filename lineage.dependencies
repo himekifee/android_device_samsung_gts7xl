@@ -1,5 +1,9 @@
 [
  {
+    "repository": "b1ad3runn3r/drag-kernel-t975",
+    "target_path": "kernel/samsung/gts7xl"
+ },
+ {
     "repository": "android_device_samsung_sm8250-common",
     "target_path": "device/samsung/sm8250-common"
  }
