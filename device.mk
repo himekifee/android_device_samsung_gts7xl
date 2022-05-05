@@ -5,7 +5,7 @@
 #
 
 # Inherit common device configuration
-$(call inherit-product, device/samsung/sm8250-common/common.mk)
+$(call inherit-product, device/samsung/gts7xl-common/common.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -16,18 +16,6 @@ PRODUCT_COPY_FILES += \
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2800
 TARGET_SCREEN_WIDTH := 1752
-TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x400000000LL
-# TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS == 0x546C00000000
-TARGET_USES_COLOR_METADATA := true
-TARGET_USES_DISPLAY_RENDER_INTENTS := true
-TARGET_USES_DRM_PP := true
-TARGET_USES_GRALLOC1 := true
-TARGET_USES_GRALLOC4 := true
-TARGET_USES_HWC2 := true
-TARGET_USES_ION := true
-TARGET_USES_QCOM_DISPLAY_BSP := true
-TARGET_USES_QTI_MAPPER_2_0 := true
-TARGET_USES_QTI_MAPPER_EXTENSIONS_1_1 := true
 
 # ConfigStore
 PRODUCT_PACKAGES += \
@@ -37,11 +25,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.recovery.target.rc
-
-# Keystore
-PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.0-service.samsung \
-    android.hardware.keymaster@4.1.vendor
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \

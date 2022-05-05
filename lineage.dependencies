@@ -4,7 +4,7 @@
     "target_path": "kernel/samsung/gts7xl"
  },
  {
-    "repository": "android_device_samsung_sm8250-common",
-    "target_path": "device/samsung/sm8250-common"
+    "repository": "android_device_samsung_gts7xl-common",
+    "target_path": "device/samsung/gts7xl-common"
  }
 ]

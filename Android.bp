@@ -1,5 +1,5 @@
 soong_namespace {
-    imports: ["device/samsung/sm8250-common"],
+    imports: ["device/samsung/gts7xl-common"],
 }
 
 subdirs = [
