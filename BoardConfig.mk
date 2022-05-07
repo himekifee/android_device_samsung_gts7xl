@@ -19,9 +19,6 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 BOARD_SUPER_PARTITION_GROUPS := qti_dynamic_partitions
 BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := odm product system system_ext vendor
 
-# HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/gts7xl_eur_open_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/gts7xl
@@ -32,7 +29,6 @@ BOARD_KERNEL_CMDLINE += enforcing=0 androidboot.selinux=permissive
 
 
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-#BOARD_RAMDISK_USE_XZ := true
 
 
 # Partitions
@@ -45,7 +41,6 @@ BOARD_QTI_DYNAMIC_PARTITIONS_SIZE := 8023703552
 BOARD_SUPER_PARTITION_SIZE := 10171187200
 
 BOARD_USERDATAIMAGE_FILE_SYSTEM_TYPE=f2fs
-# TARGET_USERIMAGES_USE_F2FS=true
 BOARD_CANT_BUILD_RECOVERY_FROM_BOOT_PATCH := true
 
 # System as root
